@@ -3,8 +3,9 @@ public class Cat extends Animal {
     public Cat(){
         super(name);
     }
-    public void sound()
+    public static String  sound()
     {
-        System.out.println("Cat meows");
+
+        return "Meow";
     }
 }

@@ -9,9 +9,10 @@ public class Dog extends  Animal {
 
 
 
-    public void sound()
+    public static String sound()
     {
-        System.out.println("Dog barks");
+
+        return "Barks";
     }
 
 }

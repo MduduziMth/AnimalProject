@@ -6,13 +6,15 @@ public class Animal {
         name = _name;
     }
 
-    public void sound()
+    public static String  sound()
     {
-        System.out.println("Makes sounds");
+
+        return "Makes sounds";
     }
 
-    public void eats()
+    public static String  eats()
     {
-        System.out.println( name + " eats");
+
+        return "Food";
     }
 }
